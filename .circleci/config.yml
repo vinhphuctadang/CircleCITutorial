@@ -1,6 +1,6 @@
  version: 2
  jobs: 
-   one: # The first first job.
+   runTest: # The first first job.
      docker: # it uses the docker executor
        - image: circleci/node:8.17 
      # Steps are a list of commands to run inside the docker container above.
@@ -11,6 +11,6 @@
        - run: npm test
  workflows:
    version: 2
-   main: # workflow name
+   test: # workflow name
      jobs: # workflow job list
-       - one
+       - runTest

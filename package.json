@@ -1,0 +1,33 @@
+{
+  "name": "circlecitutorial",
+  "version": "1.0.0",
+  "description": "Tutorial for circleci",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vinhphuctadang/CircleCITutorial.git"
+  },
+  "keywords": [
+    "circleci",
+    "ci",
+    "node",
+    "test"
+  ],
+  "author": "vinhphuctadang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vinhphuctadang/CircleCITutorial/issues"
+  },
+  "homepage": "https://github.com/vinhphuctadang/CircleCITutorial#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "^7.0.1"
+  }
+}
